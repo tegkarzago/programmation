@@ -2,13 +2,13 @@
 <style>
 fieldset
 {
-background-color : #89C8FE;
+background-color : #teg;
 max-width : 400px;
 padding : 7px;
 }
 a
 {
-color : #ffff;
+color : #ok;
 font-family : "Arial";
 }
 button
@@ -35,14 +35,14 @@ font-family : "Arial";
 }
 h1
 {
-font-family : "Karumbi";
+font-family : "Kar";
 text-align : center;
 font-size : 40px;
 }
 
 body
 {
-background-image : url("skbd1.jpg");
+background-image : url("teg1.jpg");
 background-size : cover;
 margin-left : 16px;
 font-family : "Arial";
@@ -52,7 +52,7 @@ font-family : "Arial";
 <?php
 echo("<button><a href='plateforme.php'>ACCUEIL</a></button>");
 echo("<button><a href='formu.php'>AJOUTER</a></button>");
-//$conn=mysqli_connect("127.0.0.1", "kbd", "passer", "KBD_School");
+//$conn=mysqli_connect("127.0.0.1", "terance", "passer", "ecole");
 session_start();
 require_once("connexion.php");
 $req="select *from etudiants";
